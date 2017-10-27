@@ -5,7 +5,7 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-    deli.each do |name|
+    array.each do |name|
     i = array.index(name) + 1
     line.push("#{i}. #{name}")
     end
@@ -26,4 +26,3 @@ def now_serving(array)
     array.shift
   end
 end
-  
